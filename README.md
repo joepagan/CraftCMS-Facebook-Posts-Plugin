@@ -1,4 +1,4 @@
-# Facebook Posts
+# Facebook Posts - CraftCMS Plugin
 Facebook Posts will fetch recent posts from a Facebook account using Facebook SDK &amp; Graph API v2.8
 
 This plugin is not quite there yet, hoping to:
