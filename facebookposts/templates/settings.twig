@@ -1,0 +1,41 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'Facebook App ID',
+    instructions: '',
+    id: 'facebookAppId',
+    name: 'facebookAppId',
+    value: settings['facebookAppId']})
+}}
+
+{{ forms.textField({
+    label: 'Facebook App Secret',
+    instructions: '',
+    id: 'facebookAppSecret',
+    name: 'facebookAppSecret',
+    value: settings['facebookAppSecret']})
+}}
+
+{{ forms.textField({
+    label: 'Facebook User',
+    instructions: 'The facebook user you want to get posts from',
+    id: 'facebookUser',
+    name: 'facebookUser',
+    value: settings['facebookUser']})
+}}
+
+{{ forms.textField({
+    label: 'Facebook Section Id',
+    instructions: 'the section where the facebook post entries are saved',
+    id: 'sectionId',
+    name: 'sectionId',
+    value: settings['sectionId']})
+}}
+
+{{ forms.textField({
+    label: 'Facebook Entry Type Id',
+    instructions: 'entry type id for the facebook post entries',
+    id: 'entryTypeId',
+    name: 'entryTypeId',
+    value: settings['entryTypeId']})
+}}
